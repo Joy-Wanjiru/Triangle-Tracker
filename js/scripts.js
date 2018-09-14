@@ -1,17 +1,29 @@
-alert
-var triangleperimeter = [sideAB + sideAC + sideBC];
+function (triangletracker);
+var sideAB = parseInt(document.getElementbyId("AB").value);
+var sideAC = parseInt(document.getElementbyId(AC).value);
+var sideBC = parseInt(document.getElementbyId(BC).value);
+
+var triangle= ["sideAB", "sideAC", "sideBC"]
+
   if sideAB==sideAC && sideAB==sideBC && sideAC==sideBC;  {
-    alert ("Awesome! You just created an Equilateral triangle. All the sides of the triangle are equal.")
+    document.write ("Equilateral triangle");
+    answer.textContext
 }
   else if sideAB==sideAC && sideAB==sideBC && sideBC!==sideAB; {
-    alert ("Great work! That is an isosceles triangle. Two sides are equal.")
+    document.write ("Isosceles triangle.");
+    answer.textContext
   }
   else if sideBC==sideAB && sideBC=sideAC && sideAB!==sideAC; {
-    alert ("Great work! That is an isosceles triangle. Two sides are equal.")
+    document.write ("Isosceles triangle");
+    answer.textContext
   }
-  else if sideAB!==sideAC!==sideBC; {
-    alert ("Kudos! You have made a scalene triangle. No side is equal to the other.")
-  }
-  else {
 
+  else if sideAB!==sideAC!==sideBC; {
+    document.write ("Scalene triangle");
+    answer.textContext
   }
+
+  else {
+    document.write (Not a triangle!);
+    answer.textContext
+}
