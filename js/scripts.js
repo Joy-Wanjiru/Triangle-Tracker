@@ -7,16 +7,16 @@ function triangleTracker() {
     if (sideAB===sideAC && sideAB===sideBC) {
       alert ("Equilateral triangle");
   }
-    else if (sideAB==sideAC!==sideBC) {
+    else if (sideAB==sideAC && sideAB!==sideBC) {
       alert ("Isosceles triangle");
   }
-    else if (sideAB==sideBC!==sideAC) {
+    else if (sideAB==sideBC && sideAB!==sideAC) {
     alert ("Isosceles triangle");
 }
-    else if (sideAC==sideBC!==sideAB) {
+    else if (sideAC==sideBC && sideAC!==sideAB) {
   alert ("Isosceles triangle");
 }
-    else if (sideAB!==sideAC!==sideBC) {
+    else if (sideAB!==sideAC && sideAB!==sideBC) {
       alert ("Scalene triangle");
   }
     else {

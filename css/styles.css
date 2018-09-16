@@ -55,6 +55,11 @@ p {
   background-size: cover;
 
 }
+#Header2{
+  background-color: black;
+  width: 100%;
+  height: 80px;
+}
 
 .column {
   float: left;
@@ -68,9 +73,9 @@ p {
   display: table;
 }
 
-#LeftSideImages img {
-  width: 500px;
-  height: 400px;
+#BottomImage img {
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 500px) {
