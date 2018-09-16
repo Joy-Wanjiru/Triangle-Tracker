@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 
-.intro {
+.intro p {
   font-style: normal;
   font-size: 30px;
 }
@@ -19,17 +19,18 @@ body {
   margin-bottom: 10%;
   margin-top: 5%;
 }
-.button {
-  height: 40px;
-  color:  #C0C0C0;
-  width: 50px;
-
-}
-
-h1 {
-  background-color: #20B2AA;
+.Body h1 {
   font-size: 40px;
-  justify-content: space-around;
-  }
+  text-align: center;
+}
+.Body h2 {
+  font-size: 35px;
+}
 .buttons {
+  align-items: stretch;
+}
+p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
 }
