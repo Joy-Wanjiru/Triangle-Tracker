@@ -14,11 +14,16 @@ body {
 .Body {
   margin-left: 20%;
   margin-right: 20%;
+  margin-bottom: 10%;
+  margin-top: 5%;
 }
-#button{
-  height:40px;
-  background-color:
+.button {
+  height: 40px;
+  color:  #C0C0C0;
+  width: 50px;
+
 }
+
 h1 {
   background-color: #20B2AA;
   font-size: 40px;
