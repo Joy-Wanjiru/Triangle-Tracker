@@ -11,24 +11,25 @@ function triangleTracker() {
   var twoSides3 = sideAC+sideBC
 
     if (sideAB===sideAC && sideAB===sideBC) {
-      alert ("Equilateral triangle of " + trianglePerimeter + "cm/m");
+      alert ("Great job! You've created an Equilateral triangle of " + trianglePerimeter + "cm/m");
   }
     else if (twoSides1<=sideBC || twoSides2<=sideAC || twoSides3<=sideAB ) {
-      alert ("Not a triangle!");
+      alert ("Sorry! Not a triangle. Try again.");
   }
     else if (sideAB==sideAC && sideAB!==sideBC) {
-      alert ("Isosceles triangle of " + trianglePerimeter + "cm/m");
+      alert ("Kudos! You've created an Isosceles triangle of " + trianglePerimeter + "cm/m");
   }
     else if (sideAB==sideBC && sideAB!==sideAC) {
-      alert ("Isosceles triangle of " + trianglePerimeter + "cm/m");
+      alert ("Kudos! You've created an Isosceles triangle of " + trianglePerimeter + "cm/m");
   }
     else if (sideAC==sideBC && sideAC!==sideAB) {
-      alert ("Isosceles triangle of " + trianglePerimeter + "cm/m");
+      alert ("Kudos! You've created an Isosceles triangle of " + trianglePerimeter + "cm/m");
   }
+
     else if (sideAB!==sideAC && sideAB!==sideBC) {
-      alert ("Scalene triangle of " + trianglePerimeter + "cm/m");
+      alert ("Amazing work! You've created a Scalene triangle of " + trianglePerimeter + "cm/m");
   }
     else {
-      alert ("Not a triangle!");
+      alert ("Sorry! Not a triangle. Try again.");
   }
 }
