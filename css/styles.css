@@ -53,3 +53,8 @@ p {
   background-size: cover;
 
 }
+@media screen and (max-width: 500px) {
+  body {
+    background-color: white;
+  }
+}
