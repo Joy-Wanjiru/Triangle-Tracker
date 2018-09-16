@@ -2,17 +2,27 @@ body {
   background-color: #20B2AA;
   width: 100%;
 }
-h1 {
-    background-color: #20B2AA;
-}
+
 .intro {
   font-style: normal;
   font-size: 30px;
 }
 .Header img {
   width: 100%;
-  height: 350px;
+  height: 300px;
 }
 .Body {
-  margin: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#button{
+  height:40px;
+  background-color:
+}
+h1 {
+  background-color: #20B2AA;
+  font-size: 40px;
+  justify-content: space-around;
+  }
+.buttons {
 }
