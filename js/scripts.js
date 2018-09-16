@@ -14,10 +14,10 @@ function triangleTracker() {
   }
     else if (sideAB==sideBC && sideAB!==sideAC) {
     alert ("Isosceles triangle" + trianglePerimeter + "cm/m");
-}
+  }
     else if (sideAC==sideBC && sideAC!==sideAB) {
   alert ("Isosceles triangle" + trianglePerimeter + "cm/m");
-}
+  }
     else if (sideAB!==sideAC && sideAB!==sideBC) {
       alert ("Scalene triangle" + trianglePerimeter + "cm/m");
   }
