@@ -1,4 +1,4 @@
-                  TRIANGLE TRACKER
+                TRIANGLE TRACKER
 
                 AUTHOR: Muhia Joy Wanjiru
 
