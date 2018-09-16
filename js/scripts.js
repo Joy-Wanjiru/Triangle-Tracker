@@ -4,8 +4,10 @@ function triangleTracker() {
   var sideAC = parseInt(document.getElementById("sideAC").value);
   var sideBC = parseInt(document.getElementById("sideBC").value);
 
+  var trianglePerimeter = [sideAB+ sideAC + sideBC];
+
     if (sideAB===sideAC && sideAB===sideBC) {
-      alert ("Equilateral triangle");
+      alert ("Equilateral triangle of " + trianglePerimeter );
   }
     else if (sideAB==sideAC && sideAB!==sideBC) {
       alert ("Isosceles triangle");
